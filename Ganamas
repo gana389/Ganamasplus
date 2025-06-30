@@ -1,0 +1,84 @@
+# Ganamasplus
+Invierte y gana más con nosotros 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gana Más con Nosotros</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(145deg, #f5f5f5, #e0e0e0);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #ff3c3c;
+      color: white;
+      padding: 20px;
+      width: 100%;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 30px 20px;
+      max-width: 500px;
+      width: 100%;
+    }
+
+    input[type="number"] {
+      padding: 12px;
+      width: 80%;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      margin: 15px 0;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 12px 24px;
+      background-color: #ff3c3c;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #cc1f1f;
+    }
+
+    .respuesta {
+      margin-top: 30px;
+      font-size: 18px;
+      color: #333;
+      font-weight: bold;
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 20px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>Gana Más con Nosotros</header>
+  <main>
+    <p><strong>Número Nequi:</strong> 300 5868409</p>
+    <p>Realiza tu pago entre <strong>$50.000</strong> y <strong>$300.000</strong> COP para recibir tu mensaje especial.</p>
+
+    <input type="number" id="monto" placeholder="¿Cuánto pagaste?">
+    <br>
+    <button onclick="
